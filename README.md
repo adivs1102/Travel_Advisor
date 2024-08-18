@@ -1,8 +1,52 @@
 # Travel_Advisor
 
-It is a website that uses react js in frontend and rapid api for all places suggestion , uses google map api for map access .
+**Travel_Advisor** is a website that suggests nearby places such as restaurants, hotels, and attractions using React.js for the frontend, Rapid API for place suggestions, and Google Maps API for map integration.
 
-For running the website you need to rename .env.example file as just .env and paste the rapid api and google map keys inside it.
-Then run the following lines in your command line -
-"npm i",
-"npm start"
+## Features
+
+- Suggests nearby restaurants, hotels, and tourist attractions
+- Interactive map powered by Google Maps API
+- Real-time data retrieval using Rapid API
+
+## Tech Stack
+
+- **Frontend**: React.js
+- **APIs**: Rapid API (place suggestions), Google Maps API (map access)
+
+## Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/adivs1102/Travel_Advisor.git
+cd Travel_Advisor
+```
+
+### 2. Configure API Keys
+
+- Rename `.env.example` to `.env`.
+- Paste your **Rapid API** and **Google Maps API** keys into the `.env` file.
+
+### 3. Install Dependencies
+
+```bash
+npm i
+```
+
+### 4. Start the Application
+
+```bash
+npm start
+```
+
+### 5. Access the Website
+
+Open your browser and go to `http://localhost:3000`.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+This README covers the essentials for getting the Travel_Advisor website up and running.
